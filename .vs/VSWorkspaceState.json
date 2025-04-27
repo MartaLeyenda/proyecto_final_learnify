@@ -1,6 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\proyecto_final_learnify",
+    "\\proyecto_final_learnify\\obj",
+    "\\proyecto_final_learnify\\obj\\Debug",
+    "\\proyecto_final_learnify\\obj\\Debug\\TempPE"
   ],
+  "SelectedNode": "\\proyecto_final_learnify\\obj\\Debug\\TempPE",
   "PreviewInSolutionExplorer": false
 }
