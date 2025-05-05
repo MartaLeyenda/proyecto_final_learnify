@@ -1,4 +1,5 @@
 ﻿using proyecto_final_learnify.BaseDeDatos;
+using proyecto_final_learnify.Páginas;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -47,6 +48,15 @@ namespace proyecto_final_learnify
                 MessageBox.Show("¡Bienvenid@, " + usuario.Nombre + "!", "Acceso correcto", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
                 // Comparativa del tipo de usuario y abrir la sesión de profesor o alumno
+                if (usuario.Tipo == Usuario.TipoUsuario.profesor)
+                {
+                    VistaProfesorForm formProfesor = new VistaProfesorForm(usuario.Id);
+                    formProfesor.ShowDialog();
+                } else
+                {
+                    //VerCursosForm formAlumno = new VerCursosForm(usuario);
+                    //formAlumno.ShowDialog();
+                }
             }
             else
             {

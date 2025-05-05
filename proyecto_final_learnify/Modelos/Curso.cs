@@ -13,13 +13,25 @@ namespace proyecto_final_learnify
         public string Descripcion { get; set; }
         public int ProfesorId { get; set; }
         public DateTime FechaPublicacion { get; set; }
-        public Curso(int id, string nombre, string descripcion, int profesorId, DateTime fechaPublicacion)
+        public string RutaArchivo { get; set; }
+        public Curso(int id, string nombre, string descripcion, int profesorId, DateTime fechaPublicacion, string rutaArchivo)
         {
             Id = id;
             Nombre = nombre;
             Descripcion = descripcion;
             ProfesorId = profesorId;
             FechaPublicacion = fechaPublicacion;
+            RutaArchivo = rutaArchivo;
         }
+
+        //public Curso(string nombre, string descripcion, int profesorId, DateTime fechaPublicacion, string rutaArchivo, string tipoPublicacion)
+        //{
+        //    Nombre = nombre;
+        //    Descripcion = descripcion;
+        //    ProfesorId = profesorId;
+        //    FechaPublicacion = fechaPublicacion;
+        //    RutaArchivo = rutaArchivo;
+        //    TipoPublicacion = tipoPublicacion;
+        //}
     }
 }
