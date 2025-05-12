@@ -54,8 +54,8 @@ namespace proyecto_final_learnify
                     formProfesor.ShowDialog();
                 } else
                 {
-                    //VerCursosForm formAlumno = new VerCursosForm(usuario);
-                    //formAlumno.ShowDialog();
+                    Formularios.VerCursosForm formAlumno = new Formularios.VerCursosForm(usuario.Id);
+                    formAlumno.ShowDialog();
                 }
             }
             else

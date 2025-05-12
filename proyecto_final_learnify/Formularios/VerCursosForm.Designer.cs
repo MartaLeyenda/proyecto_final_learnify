@@ -84,9 +84,9 @@
             // 
             // btnInscripciones
             // 
-            this.btnInscripciones.Location = new System.Drawing.Point(513, 20);
+            this.btnInscripciones.Location = new System.Drawing.Point(487, 20);
             this.btnInscripciones.Name = "btnInscripciones";
-            this.btnInscripciones.Size = new System.Drawing.Size(127, 30);
+            this.btnInscripciones.Size = new System.Drawing.Size(153, 30);
             this.btnInscripciones.TabIndex = 3;
             this.btnInscripciones.Text = "Mis Inscripciones";
             this.btnInscripciones.UseVisualStyleBackColor = true;
