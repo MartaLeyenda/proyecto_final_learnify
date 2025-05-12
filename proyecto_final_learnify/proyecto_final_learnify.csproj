@@ -107,6 +107,12 @@
     <Compile Include="Formularios\CrearCursoForm.Designer.cs">
       <DependentUpon>CrearCursoForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\MisCursosForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\MisCursosForm.Designer.cs">
+      <DependentUpon>MisCursosForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formularios\VerCursosForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -142,8 +148,14 @@
     <EmbeddedResource Include="Formularios\LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\MisCursosForm.resx">
+      <DependentUpon>MisCursosForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Formularios\RegistroForm.resx">
       <DependentUpon>RegistroForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\VerCursosForm.resx">
+      <DependentUpon>VerCursosForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

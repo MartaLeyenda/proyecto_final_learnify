@@ -188,8 +188,8 @@
             this.cbTipo.FormattingEnabled = true;
             this.cbTipo.Items.AddRange(new object[] {
             "---------",
-            "Profesor",
-            "Alumno"});
+            "profesor",
+            "alumno"});
             this.cbTipo.Location = new System.Drawing.Point(119, 237);
             this.cbTipo.Name = "cbTipo";
             this.cbTipo.Size = new System.Drawing.Size(272, 24);

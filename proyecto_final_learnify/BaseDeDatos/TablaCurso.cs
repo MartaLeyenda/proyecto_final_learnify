@@ -113,5 +113,43 @@ namespace proyecto_final_learnify.BaseDeDatos
                 }
             }
         }
+
+        public static List<Curso> ObtenerTodosLosCursos(string filtro = "")
+        {
+            List<Curso> cursos = new List<Curso>();
+            using (MySqlConnection con = new MySqlConnection(conexion))
+            {
+                string query = "SELECT id, nombre, descripcion, profesorId, fechaPublicacion, rutaArchivo FROM cursos";
+                if (!string.IsNullOrEmpty(filtro))
+                {
+                    query += " WHERE nombre LIKE @filtro OR descripcion LIKE @filtro";
+                }
+                using (MySqlCommand cmd = new MySqlCommand(query, con))
+                {
+                    if (!string.IsNullOrEmpty(filtro))
+                    {
+                        cmd.Parameters.AddWithValue("@filtro", "%" + filtro + "%");
+                    }
+                    con.Open();
+                    using (MySqlDataReader reader = cmd.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            Curso curso = new Curso(
+                                id: Convert.ToInt32(reader["id"]),
+                                nombre: reader["nombre"].ToString(),
+                                descripcion: reader["descripcion"].ToString(),
+                                profesorId: Convert.ToInt32(reader["profesorId"]),
+                                fechaPublicacion: Convert.ToDateTime(reader["fechaPublicacion"]),
+                                rutaArchivo: reader["rutaArchivo"].ToString()
+                            );
+                            cursos.Add(curso);
+                        }
+                    }
+                }
+            }
+            return cursos;
+        }
+
     }
 }

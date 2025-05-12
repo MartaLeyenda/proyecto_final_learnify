@@ -118,7 +118,7 @@ namespace proyecto_final_learnify.Páginas
 
         private void crearCursoClick(object sender, EventArgs e)
         {
-            CrearCursoForm crearCurso = new CrearCursoForm();
+            CrearCursoForm crearCurso = new CrearCursoForm(profesorId);
             crearCurso.FormClosed += (s, args) => CargarCursos();
             crearCurso.ShowDialog();
         }
@@ -130,7 +130,7 @@ namespace proyecto_final_learnify.Páginas
                 this.Close();
             }
         }
-
+        
         private void CerrarSesion(object sender, FormClosingEventArgs e)
         {
             if (MessageBox.Show("¿Seguro que desea cerrar sesión?", "Learnify", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.Cancel)

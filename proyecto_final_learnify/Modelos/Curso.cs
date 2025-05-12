@@ -24,14 +24,13 @@ namespace proyecto_final_learnify
             RutaArchivo = rutaArchivo;
         }
 
-        //public Curso(string nombre, string descripcion, int profesorId, DateTime fechaPublicacion, string rutaArchivo, string tipoPublicacion)
-        //{
-        //    Nombre = nombre;
-        //    Descripcion = descripcion;
-        //    ProfesorId = profesorId;
-        //    FechaPublicacion = fechaPublicacion;
-        //    RutaArchivo = rutaArchivo;
-        //    TipoPublicacion = tipoPublicacion;
-        //}
+        public Curso(string nombre, string descripcion, int profesorId, DateTime fechaPublicacion, string rutaArchivo)
+        {
+            Nombre = nombre;
+            Descripcion = descripcion;
+            ProfesorId = profesorId;
+            FechaPublicacion = fechaPublicacion;
+            RutaArchivo = rutaArchivo;
+        }
     }
 }

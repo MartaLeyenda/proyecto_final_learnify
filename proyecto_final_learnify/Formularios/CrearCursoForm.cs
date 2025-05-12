@@ -13,9 +13,11 @@ namespace proyecto_final_learnify.Formularios
 {
     public partial class CrearCursoForm : Form
     {
-        public CrearCursoForm()
+        private int idProfesor;
+        public CrearCursoForm(int profesorId)
         {
             InitializeComponent();
+            idProfesor = profesorId;
         }
 
         private void cargarArchivo(object sender, EventArgs e)
@@ -44,6 +46,10 @@ namespace proyecto_final_learnify.Formularios
             Directory.CreateDirectory(carpetaDestino);
             string rutaDestino = Path.Combine(carpetaDestino, Path.GetFileName(txtArchivo.Text));
             File.Copy(txtArchivo.Text, rutaDestino, true);
+
+            DateTime dateTime = DateTime.Now;
+            Curso curso = new Curso(txtNombre.Text, txtDescripcion.Text, idProfesor, dateTime, rutaDestino);
+            BaseDeDatos.TablaCurso.CrearCurso(curso);
 
             MessageBox.Show("Curso creado con éxito.");
             this.Close();
