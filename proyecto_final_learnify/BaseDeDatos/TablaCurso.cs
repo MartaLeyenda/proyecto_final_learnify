@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace proyecto_final_learnify.BaseDeDatos
 {
@@ -25,9 +26,17 @@ namespace proyecto_final_learnify.BaseDeDatos
                     cmd.Parameters.AddWithValue("@fechaPublicacion", curso.FechaPublicacion);
                     cmd.Parameters.AddWithValue("@rutaArchivo", curso.RutaArchivo);
 
-                    con.Open();
-                    int resultado = cmd.ExecuteNonQuery();
-                    return resultado > 0;
+                    try
+                    {
+                        con.Open();
+                        int resultado = cmd.ExecuteNonQuery();
+                        return resultado > 0;
+                    }
+                    catch (MySqlException ex)
+                    {
+                        MessageBox.Show("Error al crear el curso: " + ex.Message);
+                        return false;
+                    }
                 }
             }
         }
@@ -38,7 +47,7 @@ namespace proyecto_final_learnify.BaseDeDatos
 
             using (MySqlConnection con = new MySqlConnection(conexion))
             {
-                string query = "SELECT id, nombre, descripcion, profesorId, fechaPublicacion FROM cursos WHERE profesorId = @profesorId";
+                string query = "SELECT id, nombre, descripcion, profesorId, fechaPublicacion, RutaArchivo FROM cursos WHERE profesorId = @profesorId";
 
                 using (MySqlCommand cmd = new MySqlCommand(query, con))
                 {
@@ -55,14 +64,13 @@ namespace proyecto_final_learnify.BaseDeDatos
                                 reader["descripcion"].ToString(),
                                 Convert.ToInt32(reader["profesorId"]),
                                 Convert.ToDateTime(reader["fechaPublicacion"]),
-                                reader["tipoPublicacion"].ToString()
+                                reader["RutaArchivo"].ToString()
                             );
                             lista.Add(curso);
                         }
                     }
                 }
             }
-
             return lista;
         }
 
@@ -87,13 +95,12 @@ namespace proyecto_final_learnify.BaseDeDatos
                                 reader["descripcion"].ToString(),
                                 Convert.ToInt32(reader["profesorId"]),
                                 Convert.ToDateTime(reader["fechaPublicacion"]),
-                                reader["tipoPublicacion"].ToString()
+                                reader["RutaArchivo"].ToString()
                             );
                         }
                     }
                 }
             }
-
             return null;
         }
     
@@ -150,6 +157,5 @@ namespace proyecto_final_learnify.BaseDeDatos
             }
             return cursos;
         }
-
     }
 }

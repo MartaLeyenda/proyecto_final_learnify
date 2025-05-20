@@ -15,7 +15,7 @@ namespace proyecto_final_learnify.BaseDeDatos
         {
             using (MySqlConnection con = new MySqlConnection(conexion))
             {
-                string query = "INSERT INTO inscripciones (AlumnoId, CursoId, FechaInscripcion) VALUES (@alumnoId, @cursoId, @fecha)";
+                string query = "INSERT INTO inscripcion (AlumnoId, CursoId, FechaInscripcion) VALUES (@alumnoId, @cursoId, @fecha)";
 
                 using (MySqlCommand cmd = new MySqlCommand(query, con))
                 {
@@ -34,7 +34,7 @@ namespace proyecto_final_learnify.BaseDeDatos
         {
             using (MySqlConnection con = new MySqlConnection(conexion))
             {
-                string query = "SELECT COUNT(*) FROM inscripciones WHERE AlumnoId=@alumnoId AND CursoId=@cursoId";
+                string query = "SELECT COUNT(*) FROM inscripcion WHERE AlumnoId=@alumnoId AND CursoId=@cursoId";
 
                 using (MySqlCommand cmd = new MySqlCommand(query, con))
                 {
@@ -54,7 +54,7 @@ namespace proyecto_final_learnify.BaseDeDatos
 
             using (MySqlConnection con = new MySqlConnection(conexion))
             {
-                string query = "SELECT CursoId FROM inscripciones WHERE AlumnoId=@alumnoId";
+                string query = "SELECT CursoId FROM inscripcion WHERE AlumnoId=@alumnoId";
 
                 using (MySqlCommand cmd = new MySqlCommand(query, con))
                 {
@@ -80,7 +80,7 @@ namespace proyecto_final_learnify.BaseDeDatos
             using (MySqlConnection con = new MySqlConnection(conexion))
             {
                 string query = @"SELECT c.id, c.nombre, c.descripcion, c.ProfesorId, c.FechaPublicacion, c.rutaArchivo
-                                 FROM inscripciones i
+                                 FROM inscripcion i
                                  INNER JOIN cursos c ON i.CursoId = c.id
                                  WHERE i.AlumnoId = @alumnoId";
 
@@ -113,7 +113,7 @@ namespace proyecto_final_learnify.BaseDeDatos
         {
             using (MySqlConnection con = new MySqlConnection(conexion))
             {
-                string query = "DELETE FROM inscripciones WHERE AlumnoId=@alumnoId AND CursoId=@cursoId";
+                string query = "DELETE FROM inscripcion WHERE AlumnoId=@alumnoId AND CursoId=@cursoId";
 
                 using (MySqlCommand cmd = new MySqlCommand(query, con))
                 {

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MisCursosForm));
             this.lblMisCursos = new System.Windows.Forms.Label();
             this.flpCursos = new System.Windows.Forms.FlowLayoutPanel();
             this.btnVolver = new System.Windows.Forms.Button();
@@ -46,7 +47,6 @@
             // flpCursos
             // 
             this.flpCursos.AutoScroll = true;
-            this.flpCursos.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
             this.flpCursos.Location = new System.Drawing.Point(20, 60);
             this.flpCursos.Name = "flpCursos";
             this.flpCursos.Size = new System.Drawing.Size(740, 400);
@@ -70,6 +70,7 @@
             this.Controls.Add(this.btnVolver);
             this.Controls.Add(this.flpCursos);
             this.Controls.Add(this.lblMisCursos);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "MisCursosForm";
             this.Text = "Mis Cursos";
             this.ResumeLayout(false);

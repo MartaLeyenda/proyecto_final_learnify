@@ -95,11 +95,14 @@ namespace proyecto_final_learnify.Formularios
 
         private void AbrirArchivo(string ruta)
         {
-            if (File.Exists(ruta))
+            string carpetaArchivos = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "archivos");
+            string rutaCompleta = Path.Combine(carpetaArchivos, ruta);
+
+            if (File.Exists(rutaCompleta))
             {
                 System.Diagnostics.Process.Start(new System.Diagnostics.ProcessStartInfo
                 {
-                    FileName = ruta,
+                    FileName = rutaCompleta,
                     UseShellExecute = true
                 });
             }
@@ -111,7 +114,10 @@ namespace proyecto_final_learnify.Formularios
 
         private void btnCerrarSesion_click(object sender, EventArgs e)
         {
-            this.Close();
+            if (MessageBox.Show("¿Seguro que desea cerrar sesión?", "Learnify", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.OK)
+            {
+                this.Close();
+            }
         }
 
         private void btnBuscar_click(object sender, EventArgs e)
@@ -124,6 +130,12 @@ namespace proyecto_final_learnify.Formularios
         {            
             MisCursosForm misCursos = new MisCursosForm(idAlumno);
             misCursos.ShowDialog();
+        }
+
+        private void btnConectarse_click(object sender, EventArgs e)
+        {
+            ClienteForm cliente = new ClienteForm();
+            cliente.Show();
         }
     }
 }

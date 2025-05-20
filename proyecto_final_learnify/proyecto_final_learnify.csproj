@@ -101,6 +101,12 @@
     <Compile Include="BaseDeDatos\TablaCurso.cs" />
     <Compile Include="BaseDeDatos\TablaInscripcion.cs" />
     <Compile Include="BaseDeDatos\TablaUsurios.cs" />
+    <Compile Include="Formularios\ClienteForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\ClienteForm.Designer.cs">
+      <DependentUpon>ClienteForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formularios\CrearCursoForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -112,6 +118,12 @@
     </Compile>
     <Compile Include="Formularios\MisCursosForm.Designer.cs">
       <DependentUpon>MisCursosForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\ServidorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\ServidorForm.Designer.cs">
+      <DependentUpon>ServidorForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Formularios\VerCursosForm.cs">
       <SubType>Form</SubType>
@@ -142,6 +154,9 @@
     <Compile Include="Formularios\VistaProfesorForm.Designer.cs">
       <DependentUpon>VistaProfesorForm.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Formularios\ClienteForm.resx">
+      <DependentUpon>ClienteForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Formularios\CrearCursoForm.resx">
       <DependentUpon>CrearCursoForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -153,6 +168,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\RegistroForm.resx">
       <DependentUpon>RegistroForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\ServidorForm.resx">
+      <DependentUpon>ServidorForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\VerCursosForm.resx">
       <DependentUpon>VerCursosForm.cs</DependentUpon>

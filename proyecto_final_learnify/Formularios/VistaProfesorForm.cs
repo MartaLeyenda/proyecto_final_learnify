@@ -49,8 +49,8 @@ namespace proyecto_final_learnify.Páginas
                 {
                     Text = curso.Descripcion.Length > 100 ? curso.Descripcion.Substring(0, 100) + "..." : curso.Descripcion,
                     AutoSize = false,
-                    Location = new Point(10, 35),
-                    Size = new Size(280, 60),
+                    Location = new Point(10, 30),
+                    Size = new Size(280, 55),
                     Font = new Font("Segoe UI", 9)
                 };
 
@@ -81,27 +81,31 @@ namespace proyecto_final_learnify.Páginas
 
                 Button btnVerArchivo = new Button();
                 btnVerArchivo.Text = "Ver archivo";
-                btnVerArchivo.Location = new Point(10, 100);
+                btnVerArchivo.Location = new Point(10, 85);
                 btnVerArchivo.Click += (s, e) =>
                 {
-                    if (File.Exists(curso.RutaArchivo))
+                    string carpetaArchivos = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "archivos");
+                    string rutaCompleta = Path.Combine(carpetaArchivos, curso.RutaArchivo);
+                    MessageBox.Show("ID del profesor: " + rutaCompleta);
+
+                    if (File.Exists(rutaCompleta))
                     {
                         System.Diagnostics.Process.Start(new System.Diagnostics.ProcessStartInfo()
                         {
-                            FileName = curso.RutaArchivo,
+                            FileName = rutaCompleta,
                             UseShellExecute = true
                         });
                     }
                     else
                     {
-                        MessageBox.Show("El archivo no se encuentra.");
+                        MessageBox.Show("Archivo no encontrado: " + rutaCompleta);
                     }
                 };
 
                 Label lblFecha = new Label
                 {
                     Text = "Publicado el: " + curso.FechaPublicacion.ToShortDateString(),
-                    Location = new Point(10, 75),
+                    Location = new Point(20, 90),
                     AutoSize = true
                 };
 
@@ -125,7 +129,7 @@ namespace proyecto_final_learnify.Páginas
 
         private void SalirClick(object sender, EventArgs e)
         {
-            if (MessageBox.Show("¿Seguro que desea cerrar sesión?", "Learnify", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.Cancel)
+            if (MessageBox.Show("¿Seguro que desea cerrar sesión?", "Learnify", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.OK)
             {
                 this.Close();
             }
@@ -137,6 +141,12 @@ namespace proyecto_final_learnify.Páginas
             {
                 e.Cancel = true;
             }
+        }
+
+        private void btnServidorNetworking_click(object sender, EventArgs e)
+        {
+            ServidorForm servidor = new ServidorForm();
+            servidor.Show();
         }
     }
 }

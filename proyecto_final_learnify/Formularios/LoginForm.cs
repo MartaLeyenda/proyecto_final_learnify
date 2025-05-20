@@ -51,11 +51,11 @@ namespace proyecto_final_learnify
                 if (usuario.Tipo == Usuario.TipoUsuario.profesor)
                 {
                     VistaProfesorForm formProfesor = new VistaProfesorForm(usuario.Id);
-                    formProfesor.ShowDialog();
+                    formProfesor.Show();
                 } else
                 {
                     Formularios.VerCursosForm formAlumno = new Formularios.VerCursosForm(usuario.Id);
-                    formAlumno.ShowDialog();
+                    formAlumno.Show();
                 }
             }
             else

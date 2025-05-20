@@ -30,5 +30,17 @@ namespace proyecto_final_learnify
             Nacimiento = nacimiento;
             Tipo = tipo;
         }
+        public Usuario(int id, string nombre, string apellidos, int edad, string nombre_usuario, string gmail, string contrasenna, DateTime nacimiento, TipoUsuario tipo)
+        {
+            Id = id;
+            Nombre = nombre;
+            Apellidos = apellidos;
+            Edad = edad;
+            Nombre_usuario = nombre_usuario;
+            Gmail = gmail;
+            Contrasenna = contrasenna;
+            Nacimiento = nacimiento;
+            Tipo = tipo;
+        }
     }
 }

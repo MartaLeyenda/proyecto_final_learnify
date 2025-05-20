@@ -5,6 +5,8 @@ VisualStudioVersion = 17.11.35303.130
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "proyecto_final_learnify", "proyecto_final_learnify\proyecto_final_learnify.csproj", "{5D1C3195-25E2-4471-A73B-A52DBACE2D6B}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "InstaladorLearnify", "InstaladorLearnify\InstaladorLearnify.vdproj", "{7A392B17-3D30-5A70-92D9-4C5886178C8A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,8 @@ Global
 		{5D1C3195-25E2-4471-A73B-A52DBACE2D6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5D1C3195-25E2-4471-A73B-A52DBACE2D6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5D1C3195-25E2-4471-A73B-A52DBACE2D6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A392B17-3D30-5A70-92D9-4C5886178C8A}.Debug|Any CPU.ActiveCfg = Debug
+		{7A392B17-3D30-5A70-92D9-4C5886178C8A}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

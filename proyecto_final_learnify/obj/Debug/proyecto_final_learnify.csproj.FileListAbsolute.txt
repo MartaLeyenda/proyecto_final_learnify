@@ -57,3 +57,5 @@ C:\Users\marta\source\repos\MartaLeyenda\proyecto_final_learnify\proyecto_final_
 C:\Users\marta\source\repos\MartaLeyenda\proyecto_final_learnify\proyecto_final_learnify\obj\Debug\proyecto_final_learnify.Páginas.VistaProfesorForm.resources
 C:\Users\marta\source\repos\MartaLeyenda\proyecto_final_learnify\proyecto_final_learnify\obj\Debug\proyecto_final_learnify.Formularios.MisCursosForm.resources
 C:\Users\marta\source\repos\MartaLeyenda\proyecto_final_learnify\proyecto_final_learnify\obj\Debug\proyecto_final_learnify.Formularios.VerCursosForm.resources
+C:\Users\marta\source\repos\MartaLeyenda\proyecto_final_learnify\proyecto_final_learnify\obj\Debug\proyecto_final_learnify.Formularios.ClienteForm.resources
+C:\Users\marta\source\repos\MartaLeyenda\proyecto_final_learnify\proyecto_final_learnify\obj\Debug\proyecto_final_learnify.Formularios.ServidorForm.resources

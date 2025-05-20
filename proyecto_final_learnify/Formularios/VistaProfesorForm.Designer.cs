@@ -33,6 +33,7 @@
             this.btnCrearCurso = new System.Windows.Forms.Button();
             this.btnSalir = new System.Windows.Forms.Button();
             this.pnlCursos = new System.Windows.Forms.FlowLayoutPanel();
+            this.btnServidor = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblBienvenida
@@ -68,17 +69,27 @@
             // pnlCursos
             // 
             this.pnlCursos.AutoScroll = true;
-            this.pnlCursos.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
             this.pnlCursos.Location = new System.Drawing.Point(20, 60);
             this.pnlCursos.Name = "pnlCursos";
             this.pnlCursos.Size = new System.Drawing.Size(600, 380);
             this.pnlCursos.TabIndex = 3;
+            // 
+            // btnServidor
+            // 
+            this.btnServidor.Location = new System.Drawing.Point(357, 20);
+            this.btnServidor.Name = "btnServidor";
+            this.btnServidor.Size = new System.Drawing.Size(70, 30);
+            this.btnServidor.TabIndex = 4;
+            this.btnServidor.Text = "Servidor";
+            this.btnServidor.UseVisualStyleBackColor = true;
+            this.btnServidor.Click += new System.EventHandler(this.btnServidorNetworking_click);
             // 
             // VistaProfesorForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(642, 453);
+            this.Controls.Add(this.btnServidor);
             this.Controls.Add(this.pnlCursos);
             this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.btnCrearCurso);
@@ -98,5 +109,6 @@
         private System.Windows.Forms.Button btnCrearCurso;
         private System.Windows.Forms.Button btnSalir;
         private System.Windows.Forms.FlowLayoutPanel pnlCursos;
+        private System.Windows.Forms.Button btnServidor;
     }
 }

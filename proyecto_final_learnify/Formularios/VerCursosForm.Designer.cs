@@ -28,12 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(VerCursosForm));
             this.lblTitulo = new System.Windows.Forms.Label();
             this.flpCursos = new System.Windows.Forms.FlowLayoutPanel();
             this.btnSalir = new System.Windows.Forms.Button();
             this.btnBuscar = new System.Windows.Forms.Button();
             this.txtBuscar = new System.Windows.Forms.TextBox();
             this.btnInscripciones = new System.Windows.Forms.Button();
+            this.btnCliente = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblTitulo
@@ -49,7 +51,6 @@
             // flpCursos
             // 
             this.flpCursos.AutoScroll = true;
-            this.flpCursos.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
             this.flpCursos.Location = new System.Drawing.Point(20, 100);
             this.flpCursos.Name = "flpCursos";
             this.flpCursos.Size = new System.Drawing.Size(740, 400);
@@ -92,17 +93,29 @@
             this.btnInscripciones.UseVisualStyleBackColor = true;
             this.btnInscripciones.Click += new System.EventHandler(this.btnMisInscripciones_click);
             // 
+            // btnCliente
+            // 
+            this.btnCliente.Location = new System.Drawing.Point(487, 56);
+            this.btnCliente.Name = "btnCliente";
+            this.btnCliente.Size = new System.Drawing.Size(263, 30);
+            this.btnCliente.TabIndex = 4;
+            this.btnCliente.Text = "Conectarse al servidor";
+            this.btnCliente.UseVisualStyleBackColor = true;
+            this.btnCliente.Click += new System.EventHandler(this.btnConectarse_click);
+            // 
             // VerCursosForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(782, 503);
+            this.Controls.Add(this.btnCliente);
             this.Controls.Add(this.btnInscripciones);
             this.Controls.Add(this.txtBuscar);
             this.Controls.Add(this.btnBuscar);
             this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.flpCursos);
             this.Controls.Add(this.lblTitulo);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "VerCursosForm";
             this.Text = "Ver todos los cursos";
             this.ResumeLayout(false);
@@ -118,5 +131,6 @@
         private System.Windows.Forms.Button btnBuscar;
         private System.Windows.Forms.TextBox txtBuscar;
         private System.Windows.Forms.Button btnInscripciones;
+        private System.Windows.Forms.Button btnCliente;
     }
 }

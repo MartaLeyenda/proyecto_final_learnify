@@ -45,10 +45,11 @@ namespace proyecto_final_learnify.Formularios
             string carpetaDestino = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "archivos");
             Directory.CreateDirectory(carpetaDestino);
             string rutaDestino = Path.Combine(carpetaDestino, Path.GetFileName(txtArchivo.Text));
+            MessageBox.Show("ID del profesor: " + txtArchivo.Text);
+
             File.Copy(txtArchivo.Text, rutaDestino, true);
 
-            DateTime dateTime = DateTime.Now;
-            Curso curso = new Curso(txtNombre.Text, txtDescripcion.Text, idProfesor, dateTime, rutaDestino);
+            Curso curso = new Curso(txtNombre.Text, txtDescripcion.Text, idProfesor, DateTime.Now, Path.GetFileName(txtArchivo.Text));
             BaseDeDatos.TablaCurso.CrearCurso(curso);
 
             MessageBox.Show("Curso creado con éxito.");

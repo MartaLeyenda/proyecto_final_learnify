@@ -26,6 +26,12 @@ namespace proyecto_final_learnify
                 return;
             }
 
+            if (!txtGmail.Text.Trim().EndsWith("@gmail.com", StringComparison.OrdinalIgnoreCase))
+            {
+                MessageBox.Show("El correo debe terminar en '@gmail.com'", "Correo inválido", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
             Usuario.TipoUsuario tipo = cbTipo.SelectedItem.ToString() == "profesor" ? Usuario.TipoUsuario.profesor : Usuario.TipoUsuario.alumno;
 
             if (txtContrasenna.Text.Equals(txtContrasenna2.Text))

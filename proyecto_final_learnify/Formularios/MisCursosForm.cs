@@ -70,11 +70,14 @@ namespace proyecto_final_learnify.Formularios
                 };
                 btnAbrirArchivo.Click += (s, e) =>
                 {
-                    if (File.Exists(curso.RutaArchivo))
+                    string carpetaArchivos = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "archivos");
+                    string rutaCompleta = Path.Combine(carpetaArchivos, curso.RutaArchivo);
+
+                    if (File.Exists(rutaCompleta))
                     {
                         System.Diagnostics.Process.Start(new System.Diagnostics.ProcessStartInfo
                         {
-                            FileName = curso.RutaArchivo,
+                            FileName = rutaCompleta,
                             UseShellExecute = true
                         });
                     }

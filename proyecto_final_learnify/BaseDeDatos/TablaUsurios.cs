@@ -121,6 +121,7 @@ namespace proyecto_final_learnify.BaseDeDatos
                             );
 
                             Usuario usuario = new Usuario(
+                                Convert.ToInt32(reader["id"]),
                                 reader["nombre"].ToString(),
                                 reader["apellidos"].ToString(),
                                 Convert.ToInt32(reader["edad"]),
