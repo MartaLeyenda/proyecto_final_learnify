@@ -44,9 +44,9 @@
             // 
             this.btnConectar.Location = new System.Drawing.Point(300, 20);
             this.btnConectar.Name = "btnConectar";
-            this.btnConectar.Size = new System.Drawing.Size(75, 23);
+            this.btnConectar.Size = new System.Drawing.Size(94, 23);
             this.btnConectar.TabIndex = 0;
-            this.btnConectar.Text = "Conectar";
+            this.btnConectar.Text = "Conectarse";
             this.btnConectar.UseVisualStyleBackColor = true;
             this.btnConectar.Click += new System.EventHandler(this.btnConectar_click);
             // 
@@ -137,7 +137,7 @@
             this.Controls.Add(this.btnConectar);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "ClienteForm";
-            this.Text = "ClienteForm";
+            this.Text = "Cliente Learnify";
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -29,7 +29,7 @@ namespace proyecto_final_learnify.Formularios
             string ip = txtIP.Text.Trim();
             if (!IPAddress.TryParse(ip, out IPAddress direccionIP))
             {
-                MessageBox.Show("IP inválida. Ejemplo válido: 127.0.0.1");
+                MessageBox.Show("IP inválida.");
                 return;
             }
 
@@ -42,11 +42,15 @@ namespace proyecto_final_learnify.Formularios
             try
             {
                 cliente = new TcpClient(direccionIP.ToString(), puerto);
-                NetworkStream ns = cliente.GetStream();
-                sr = new StreamReader(ns);
-                sw = new StreamWriter(ns) { AutoFlush = true };
-
-                txtMensajes.AppendText(sr.ReadLine() + "\n");
+                using (NetworkStream ns = cliente.GetStream())
+                using (StreamWriter sw2 = new StreamWriter(ns))
+                using (StreamReader sr2 = new StreamReader(ns))
+                {
+                    sr = sr2;
+                    sw = sw2;
+                    sw2.AutoFlush = true;
+                    txtMensajes.AppendText(sr2.ReadLine() + "\n");
+                }
             }
             catch (Exception ex)
             {
@@ -69,8 +73,6 @@ namespace proyecto_final_learnify.Formularios
 
         private void btnSalir_click(object sender, EventArgs e)
         {
-            sw.Close();
-            sw.Close();
             cliente.Close();
             this.Close();
         }

@@ -39,7 +39,7 @@ namespace proyecto_final_learnify.Formularios
         {
             Panel panel = new Panel
             {
-                Size = new Size(700, 150),
+                Size = new Size(500, 150),
                 BorderStyle = BorderStyle.FixedSingle,
                 Margin = new Padding(10)
             };
@@ -56,13 +56,13 @@ namespace proyecto_final_learnify.Formularios
             {
                 Text = curso.Descripcion.Length > 200 ? curso.Descripcion.Substring(0, 200) + "..." : curso.Descripcion,
                 Location = new Point(10, 40),
-                Size = new Size(500, 40)
+                Size = new Size(350, 40)
             };
 
             Button btnVerArchivo = new Button
             {
                 Text = "Ver archivo",
-                Location = new Point(520, 40),
+                Location = new Point(370, 40),
                 Size = new Size(100, 30)
             };
             btnVerArchivo.Click += (s, e) => AbrirArchivo(curso.RutaArchivo);
@@ -70,7 +70,7 @@ namespace proyecto_final_learnify.Formularios
             Button btnInscribirse = new Button
             {
                 Text = "Inscribirme",
-                Location = new Point(520, 80),
+                Location = new Point(370, 80),
                 Size = new Size(100, 30)
             };
             btnInscribirse.Click += (s, e) =>

@@ -136,13 +136,13 @@ namespace proyecto_final_learnify.Formularios
         {
             comando = comando.Trim();
 
-            if (comando.Equals("time", StringComparison.OrdinalIgnoreCase))
+            if (comando.Equals("hora", StringComparison.OrdinalIgnoreCase))
                 return DateTime.Now.ToString("HH:mm:ss");
 
-            if (comando.Equals("date", StringComparison.OrdinalIgnoreCase))
+            if (comando.Equals("dia", StringComparison.OrdinalIgnoreCase))
                 return DateTime.Now.ToString("dd/MM/yyyy");
 
-            if (comando.StartsWith("all ", StringComparison.OrdinalIgnoreCase))
+            if (comando.StartsWith("todo ", StringComparison.OrdinalIgnoreCase))
             {
                 string mensaje = comando.Substring(4);
                 lock (clientesConectados)
@@ -158,13 +158,16 @@ namespace proyecto_final_learnify.Formularios
                 return "[Tú] " + mensaje;
             }
 
-            if (comando.StartsWith("close ", StringComparison.OrdinalIgnoreCase))
+            if (comando.StartsWith("cerrar ", StringComparison.OrdinalIgnoreCase))
             {
                 string clave = comando.Substring(6).Trim();
                 if (clave == contraseña)
                 {
                     EnviarMensaje("Servidor cerrado por comando.");
-                    CloseServidor();
+                    ejecutando = false;
+                    servidorSocket.Close();
+                    hiloPrincipal.Abort();
+                    btnIniciar.Enabled = true;
                     return "Servidor apagándose...";
                 }
                 else
@@ -174,14 +177,6 @@ namespace proyecto_final_learnify.Formularios
             }
 
             return "Comando no reconocido.";
-        }
-
-        private void CloseServidor()
-        {
-            ejecutando = false;
-            servidorSocket.Close();
-            hiloPrincipal.Abort();
-            btnIniciar.Enabled = true;
         }
 
         private void ServidorForm_FormClosing(object sender, FormClosingEventArgs e)

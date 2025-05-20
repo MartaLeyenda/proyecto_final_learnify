@@ -76,9 +76,9 @@
             // 
             // btnServidor
             // 
-            this.btnServidor.Location = new System.Drawing.Point(357, 20);
+            this.btnServidor.Location = new System.Drawing.Point(334, 20);
             this.btnServidor.Name = "btnServidor";
-            this.btnServidor.Size = new System.Drawing.Size(70, 30);
+            this.btnServidor.Size = new System.Drawing.Size(93, 30);
             this.btnServidor.TabIndex = 4;
             this.btnServidor.Text = "Servidor";
             this.btnServidor.UseVisualStyleBackColor = true;

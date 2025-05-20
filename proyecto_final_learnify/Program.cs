@@ -17,6 +17,8 @@ namespace proyecto_final_learnify
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new LoginForm());
+            BaseDeDatos.CrearBaseDatos.CrearBaseDato();
+            BaseDeDatos.CrearBaseDatos.CrearTablas();
         }
     }
 }
