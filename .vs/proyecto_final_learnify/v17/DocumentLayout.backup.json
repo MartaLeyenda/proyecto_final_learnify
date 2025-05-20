@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\marta\\source\\repos\\MartaLeyenda\\proyecto_final_learnify\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5D1C3195-25E2-4471-A73B-A52DBACE2D6B}|proyecto_final_learnify\\proyecto_final_learnify.csproj|C:\\Users\\marta\\source\\repos\\MartaLeyenda\\proyecto_final_learnify\\proyecto_final_learnify\\formularios\\registroform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5D1C3195-25E2-4471-A73B-A52DBACE2D6B}|proyecto_final_learnify\\proyecto_final_learnify.csproj|c:\\users\\marta\\source\\repos\\martaleyenda\\proyecto_final_learnify\\proyecto_final_learnify\\formularios\\registroform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5D1C3195-25E2-4471-A73B-A52DBACE2D6B}|proyecto_final_learnify\\proyecto_final_learnify.csproj|solutionrelative:proyecto_final_learnify\\formularios\\registroform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -11,11 +11,11 @@
       "RelativeMoniker": "D:0:0:{5D1C3195-25E2-4471-A73B-A52DBACE2D6B}|proyecto_final_learnify\\proyecto_final_learnify.csproj|solutionrelative:proyecto_final_learnify\\formularios\\registroform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5D1C3195-25E2-4471-A73B-A52DBACE2D6B}|proyecto_final_learnify\\proyecto_final_learnify.csproj|c:\\users\\marta\\source\\repos\\martaleyenda\\proyecto_final_learnify\\proyecto_final_learnify\\formularios\\crearcursoform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5D1C3195-25E2-4471-A73B-A52DBACE2D6B}|proyecto_final_learnify\\proyecto_final_learnify.csproj|C:\\Users\\marta\\source\\repos\\MartaLeyenda\\proyecto_final_learnify\\proyecto_final_learnify\\formularios\\crearcursoform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5D1C3195-25E2-4471-A73B-A52DBACE2D6B}|proyecto_final_learnify\\proyecto_final_learnify.csproj|solutionrelative:proyecto_final_learnify\\formularios\\crearcursoform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5D1C3195-25E2-4471-A73B-A52DBACE2D6B}|proyecto_final_learnify\\proyecto_final_learnify.csproj|c:\\users\\marta\\source\\repos\\martaleyenda\\proyecto_final_learnify\\proyecto_final_learnify\\formularios\\crearcursoform.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "AbsoluteMoniker": "D:0:0:{5D1C3195-25E2-4471-A73B-A52DBACE2D6B}|proyecto_final_learnify\\proyecto_final_learnify.csproj|C:\\Users\\marta\\source\\repos\\MartaLeyenda\\proyecto_final_learnify\\proyecto_final_learnify\\formularios\\crearcursoform.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
       "RelativeMoniker": "D:0:0:{5D1C3195-25E2-4471-A73B-A52DBACE2D6B}|proyecto_final_learnify\\proyecto_final_learnify.csproj|solutionrelative:proyecto_final_learnify\\formularios\\crearcursoform.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
     },
     {
@@ -23,7 +23,7 @@
       "RelativeMoniker": "D:0:0:{5D1C3195-25E2-4471-A73B-A52DBACE2D6B}|proyecto_final_learnify\\proyecto_final_learnify.csproj|solutionrelative:proyecto_final_learnify\\formularios\\servidorform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5D1C3195-25E2-4471-A73B-A52DBACE2D6B}|proyecto_final_learnify\\proyecto_final_learnify.csproj|c:\\users\\marta\\source\\repos\\martaleyenda\\proyecto_final_learnify\\proyecto_final_learnify\\formularios\\vistaprofesorform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{5D1C3195-25E2-4471-A73B-A52DBACE2D6B}|proyecto_final_learnify\\proyecto_final_learnify.csproj|C:\\Users\\marta\\source\\repos\\MartaLeyenda\\proyecto_final_learnify\\proyecto_final_learnify\\formularios\\vistaprofesorform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{5D1C3195-25E2-4471-A73B-A52DBACE2D6B}|proyecto_final_learnify\\proyecto_final_learnify.csproj|solutionrelative:proyecto_final_learnify\\formularios\\vistaprofesorform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -43,7 +43,7 @@
       "RelativeMoniker": "D:0:0:{5D1C3195-25E2-4471-A73B-A52DBACE2D6B}|proyecto_final_learnify\\proyecto_final_learnify.csproj|solutionrelative:proyecto_final_learnify\\formularios\\servidorform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5D1C3195-25E2-4471-A73B-A52DBACE2D6B}|proyecto_final_learnify\\proyecto_final_learnify.csproj|c:\\users\\marta\\source\\repos\\martaleyenda\\proyecto_final_learnify\\proyecto_final_learnify\\basededatos\\crearbasedatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5D1C3195-25E2-4471-A73B-A52DBACE2D6B}|proyecto_final_learnify\\proyecto_final_learnify.csproj|C:\\Users\\marta\\source\\repos\\MartaLeyenda\\proyecto_final_learnify\\proyecto_final_learnify\\basededatos\\crearbasedatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5D1C3195-25E2-4471-A73B-A52DBACE2D6B}|proyecto_final_learnify\\proyecto_final_learnify.csproj|solutionrelative:proyecto_final_learnify\\basededatos\\crearbasedatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -67,7 +67,7 @@
       "RelativeMoniker": "D:0:0:{5D1C3195-25E2-4471-A73B-A52DBACE2D6B}|proyecto_final_learnify\\proyecto_final_learnify.csproj|solutionrelative:proyecto_final_learnify\\basededatos\\tablausurios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5D1C3195-25E2-4471-A73B-A52DBACE2D6B}|proyecto_final_learnify\\proyecto_final_learnify.csproj|c:\\users\\marta\\source\\repos\\martaleyenda\\proyecto_final_learnify\\proyecto_final_learnify\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5D1C3195-25E2-4471-A73B-A52DBACE2D6B}|proyecto_final_learnify\\proyecto_final_learnify.csproj|C:\\Users\\marta\\source\\repos\\MartaLeyenda\\proyecto_final_learnify\\proyecto_final_learnify\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5D1C3195-25E2-4471-A73B-A52DBACE2D6B}|proyecto_final_learnify\\proyecto_final_learnify.csproj|solutionrelative:proyecto_final_learnify\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -114,7 +114,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 16,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -129,6 +129,23 @@
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RegistroForm.cs",
+              "DocumentMoniker": "C:\\Users\\marta\\source\\repos\\MartaLeyenda\\proyecto_final_learnify\\proyecto_final_learnify\\Formularios\\RegistroForm.cs",
+              "RelativeDocumentMoniker": "proyecto_final_learnify\\Formularios\\RegistroForm.cs",
+              "ToolTip": "C:\\Users\\marta\\source\\repos\\MartaLeyenda\\proyecto_final_learnify\\proyecto_final_learnify\\Formularios\\RegistroForm.cs",
+              "RelativeToolTip": "proyecto_final_learnify\\Formularios\\RegistroForm.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwBwAAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T19:11:04.056Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "CrearCursoForm.Designer.cs",
@@ -138,8 +155,7 @@
               "RelativeToolTip": "proyecto_final_learnify\\Formularios\\CrearCursoForm.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T20:17:33.448Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-20T20:17:33.448Z"
             },
             {
               "$type": "Document",
@@ -150,8 +166,7 @@
               "ToolTip": "C:\\Users\\marta\\source\\repos\\MartaLeyenda\\proyecto_final_learnify\\proyecto_final_learnify\\Formularios\\CrearCursoForm.resx",
               "RelativeToolTip": "proyecto_final_learnify\\Formularios\\CrearCursoForm.resx",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2025-05-20T20:17:29.872Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-20T20:17:29.872Z"
             },
             {
               "$type": "Document",
@@ -163,8 +178,7 @@
               "RelativeToolTip": "proyecto_final_learnify\\Program.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T18:44:01.097Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-20T18:44:01.097Z"
             },
             {
               "$type": "Document",
@@ -176,8 +190,7 @@
               "RelativeToolTip": "proyecto_final_learnify\\BaseDeDatos\\CrearBaseDatos.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAArwDsAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T18:38:04.566Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-20T18:38:04.566Z"
             },
             {
               "$type": "Document",
@@ -188,8 +201,7 @@
               "ToolTip": "C:\\Users\\marta\\source\\repos\\MartaLeyenda\\proyecto_final_learnify\\proyecto_final_learnify\\Formularios\\VistaProfesorForm.cs [Dise\u00F1o]",
               "RelativeToolTip": "proyecto_final_learnify\\Formularios\\VistaProfesorForm.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T19:46:17.188Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2025-05-05T19:46:17.188Z"
             },
             {
               "$type": "Document",
@@ -201,8 +213,7 @@
               "RelativeToolTip": "proyecto_final_learnify\\Formularios\\LoginForm.cs",
               "ViewState": "AgIAACYAAAAAAAAAAAAuwDUAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-27T14:19:10.431Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-27T14:19:10.431Z"
             },
             {
               "$type": "Document",
@@ -214,8 +225,7 @@
               "RelativeToolTip": "proyecto_final_learnify\\Formularios\\ServidorForm.cs",
               "ViewState": "AgIAADIAAAAAAAAAAAAswD0AAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T16:11:12.965Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-19T16:11:12.965Z"
             },
             {
               "$type": "Document",
@@ -227,8 +237,7 @@
               "RelativeToolTip": "proyecto_final_learnify\\Formularios\\ClienteForm.cs",
               "ViewState": "AgIAACMAAAAAAAAAAAAvwDMAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T16:09:57.385Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-19T16:09:57.385Z"
             },
             {
               "$type": "Document",
@@ -239,8 +248,7 @@
               "ToolTip": "C:\\Users\\marta\\source\\repos\\MartaLeyenda\\proyecto_final_learnify\\proyecto_final_learnify\\Formularios\\ClienteForm.cs [Dise\u00F1o]",
               "RelativeToolTip": "proyecto_final_learnify\\Formularios\\ClienteForm.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T16:07:01.768Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2025-05-19T16:07:01.768Z"
             },
             {
               "$type": "Document",
@@ -251,8 +259,7 @@
               "ToolTip": "C:\\Users\\marta\\source\\repos\\MartaLeyenda\\proyecto_final_learnify\\proyecto_final_learnify\\Formularios\\ServidorForm.cs [Dise\u00F1o]",
               "RelativeToolTip": "proyecto_final_learnify\\Formularios\\ServidorForm.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T16:06:45.042Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2025-05-19T16:06:45.042Z"
             },
             {
               "$type": "Document",
@@ -287,21 +294,7 @@
               "RelativeToolTip": "proyecto_final_learnify\\Formularios\\VerCursosForm.cs",
               "ViewState": "AgIAAB0AAAAAAAAAAAAUwCkAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T19:38:58.77Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "RegistroForm.cs",
-              "DocumentMoniker": "C:\\Users\\marta\\source\\repos\\MartaLeyenda\\proyecto_final_learnify\\proyecto_final_learnify\\Formularios\\RegistroForm.cs",
-              "RelativeDocumentMoniker": "proyecto_final_learnify\\Formularios\\RegistroForm.cs",
-              "ToolTip": "C:\\Users\\marta\\source\\repos\\MartaLeyenda\\proyecto_final_learnify\\proyecto_final_learnify\\Formularios\\RegistroForm.cs",
-              "RelativeToolTip": "proyecto_final_learnify\\Formularios\\RegistroForm.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAYwBwAAABfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T19:11:04.056Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-12T19:38:58.77Z"
             },
             {
               "$type": "Document",
@@ -312,8 +305,7 @@
               "ToolTip": "C:\\Users\\marta\\source\\repos\\MartaLeyenda\\proyecto_final_learnify\\proyecto_final_learnify\\Formularios\\RegistroForm.cs [Dise\u00F1o]",
               "RelativeToolTip": "proyecto_final_learnify\\Formularios\\RegistroForm.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T19:10:38.821Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2025-05-12T19:10:38.821Z"
             },
             {
               "$type": "Document",
@@ -324,8 +316,7 @@
               "ToolTip": "C:\\Users\\marta\\source\\repos\\MartaLeyenda\\proyecto_final_learnify\\proyecto_final_learnify\\Formularios\\VerCursosForm.cs [Dise\u00F1o]",
               "RelativeToolTip": "proyecto_final_learnify\\Formularios\\VerCursosForm.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T21:26:28.814Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2025-05-05T21:26:28.814Z"
             },
             {
               "$type": "Document",
@@ -337,8 +328,7 @@
               "RelativeToolTip": "proyecto_final_learnify\\Formularios\\CrearCursoForm.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAQwC8AAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T21:11:51.788Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-05T21:11:51.788Z"
             },
             {
               "$type": "Document",
@@ -349,8 +339,7 @@
               "ToolTip": "C:\\Users\\marta\\source\\repos\\MartaLeyenda\\proyecto_final_learnify\\proyecto_final_learnify\\Formularios\\CrearCursoForm.cs [Dise\u00F1o]",
               "RelativeToolTip": "proyecto_final_learnify\\Formularios\\CrearCursoForm.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T20:33:45.943Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2025-05-05T20:33:45.943Z"
             },
             {
               "$type": "Document",
@@ -362,8 +351,7 @@
               "RelativeToolTip": "proyecto_final_learnify\\Formularios\\VistaProfesorForm.cs",
               "ViewState": "AgIAAIoAAAAAAAAAAAAqwJUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T19:55:30.095Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-05T19:55:30.095Z"
             },
             {
               "$type": "Document",
@@ -375,8 +363,7 @@
               "RelativeToolTip": "proyecto_final_learnify\\BaseDeDatos\\TablaInscripcion.cs",
               "ViewState": "AgIAACsAAAAAAAAAAAAiwHMAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T19:40:54.13Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-05T19:40:54.13Z"
             },
             {
               "$type": "Document",
@@ -388,8 +375,7 @@
               "RelativeToolTip": "proyecto_final_learnify\\BaseDeDatos\\TablaCurso.cs",
               "ViewState": "AgIAAC0AAAAAAAAAAADgvzgAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T19:38:07.456Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-05T19:38:07.456Z"
             },
             {
               "$type": "Document",
@@ -401,8 +387,7 @@
               "RelativeToolTip": "proyecto_final_learnify\\BaseDeDatos\\TablaUsurios.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAjwA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-27T15:05:37.123Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-27T15:05:37.123Z"
             },
             {
               "$type": "Document",
@@ -413,8 +398,7 @@
               "ToolTip": "C:\\Users\\marta\\source\\repos\\MartaLeyenda\\proyecto_final_learnify\\proyecto_final_learnify\\Formularios\\LoginForm.cs [Dise\u00F1o]",
               "RelativeToolTip": "proyecto_final_learnify\\Formularios\\LoginForm.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-27T14:18:08.105Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2025-04-27T14:18:08.105Z"
             },
             {
               "$type": "Document",
